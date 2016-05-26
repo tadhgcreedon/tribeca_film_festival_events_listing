@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+#container {
+  background-color: #333;
+  padding-bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 5px solid red;
+}
+
+h1 a, h1 a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: black;
+}
+
+h1 img {
+  width: 80%;
+}
+
+#content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+table tr:nth-child(even) {
+  background-color: gray;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.tableHeaderRow {
+  border-bottom: 2px solid #333;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+th:last-child {
+  text-align: center;
+}
+
+td a, td a:visited {
+  color: maroon;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+td {
+  padding: 3px;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+.ticketAvailibityInfo {
+  text-align: center;
+}
